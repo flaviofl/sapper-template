@@ -1,3 +1,7 @@
+<script lang="typescript">
+    export let title: string = "Sapper project template with TypeScript"
+</script>
+
 <style>
 	h1, figure, p {
 		text-align: center;
@@ -33,7 +37,7 @@
 </style>
 
 <svelte:head>
-	<title>Sapper project template</title>
+	<title>{title}</title>
 </svelte:head>
 
 <h1>Great success!</h1>
